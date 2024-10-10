@@ -1,0 +1,224 @@
+* {
+  overflow-x: hidden;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(58, 175, 169);
+  font-family: "Varela Round", sans-serif;
+  max-width: 700px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #17242a;
+  border-radius: 200px;
+  box-shadow: 0px 5px #ffffff;
+  margin-top: 10px;
+}
+
+.name {
+  display: flex;
+  color: #ffffff;
+  font-size: small;
+}
+
+.name h1 {
+  margin-top: 40px;
+}
+
+.name img {
+  margin: 10px;
+}
+
+header .icons {
+  justify-content: space-between;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.icons a :hover {
+  color: #def2f1;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.icons a {
+  margin: 10px;
+  color: #ffffff;
+}
+
+.aboutme {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  display: grid;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img img {
+  margin-right: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.aboutme p {
+  font-size: larger;
+  text-align: left;
+  max-width: 250px;
+  background-color: #def2f1;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 20px;
+}
+
+.aboutme h1 {
+  border-radius: 55px;
+  background: #2b7a77;
+  width: fit-content;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.aboutme h2 {
+  max-width: 300px;
+  background-color: #def2f1;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 20px;
+}
+
+.Education {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  display: grid;
+}
+
+.Education h1 {
+  border-radius: 55px;
+  background: #2b7a77;
+  width: fit-content;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Education h2 {
+  max-width: 300px;
+  background-color: #def2f1;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 20px;
+}
+
+.Education a {
+  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.work {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  display: grid;
+}
+
+.work h1 {
+  border-radius: 55px;
+  background: #2b7a77;
+  width: fit-content;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.work h2 {
+  max-width: 300px;
+  background-color: #def2f1;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 20px;
+}
+
+.skills {
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  display: grid;
+}
+
+.skills h1 {
+  border-radius: 55px;
+  background: #2b7a77;
+  width: fit-content;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.skills h2 {
+  text-align: left;
+  max-width: 300px;
+  background-color: #def2f1;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #000000;
+}
+
+.social {
+  justify-content: space-between;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.social a {
+  color: #000000;
+  padding: 10px;
+}
+
+.social :hover {
+  color: #def2f1;
+  transition: 300ms;
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 1000;
+}
+
+.copyrights {
+  text-align: center;
+  margin: 20px;
+}
